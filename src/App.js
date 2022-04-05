@@ -1,21 +1,10 @@
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import SayMyName from './components/SayMyName'
-import Pessoa from './components/Pessoa'
+import Home from './pages/Home';
 function App() {
-  const name = 'Parcídio'
-  const url = 'https://via.placeholder.com/500'
   return (
-    <div className="App">
-      <Pessoa nome='Indefinido' idade='15' profissão='Pedreiro'/>
-      <Pessoa idade='15'/>
-        <p>
-          Hello {name}
-        </p>
-        <HelloWord/>
-        <SayMyName nome='ParcídioThegreat'/>
-
-    </div>
+    <Home />
   );
 }
-
 export default App;
