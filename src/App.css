@@ -1,71 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-section {
-  background-color: darkgrey;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-nav{
-  background-color: rgb(38, 34, 48);
-  height: 7vh;
-  width: 100%;
-}
-.logo{
- margin-top: 1%;
-}
-
-nav ul{
-  float: right;
-  margin-top: 1%;
-}
-
-nav ul li{
-  display: inline-block;
-  margin-left: 70px;
-}
-nav ul li a {
-  text-decoration: none;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: darkgray;
-}
-
-h3{
-  text-transform: uppercase;
-  color: darkgray;
-}
-
-
-@media (max-width:858px){
-  .checkbtn {
-      display: block;
-  }
-  ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      top: 80px;
-      background: rgb(38, 34, 48);
-      text-align: center;
-      left: -100%;
-      justify-content: space-around;
-      transition: all .5s;
-  }
-  nav ul li {
-      display: block;
-      line-height: 80px;
-      margin: 50px 0;
-  }
-  nav ul li a {
-      font-size: 20px;
-  }
-  a:active, a:hover{
-      background: none;
-      color: rgb(75, 67, 185);
-  }
-  #check:checked ~ ul{
-      left: 0;
-  }
+body{
+    background-color: #23232e;
 }
